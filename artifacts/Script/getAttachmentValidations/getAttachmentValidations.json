@@ -1,0 +1,33 @@
+{
+	"id": "7809e565-a6bd-f111-a6a8-7ced8d3fbafe",
+	"createdAt": "2026-10-01T14:43:01.006Z",
+	"createdBy": "veronica.fernandez@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "dae12bf0-74bd-f111-a6a8-7ced8d3fbafe",
+			"name": "genai_invoice_result",
+			"contextname": "genai_invoice_result"
+		}
+	],
+	"agents": [],
+	"processFlows": [],
+	"apis": [],
+	"name": "getAttachmentValidations",
+	"ver": "26.10.01.1443",
+	"description": "API GET /attachments/validations?id=: validation history of one attachment, newest first.",
+	"folder": null,
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "6aabea1f-f0bb-f111-a6a9-000d3ab13451",
+	"package": "187b8836-e2bb-f111-a6a9-000d3ab13451",
+	"jsscriptGroupObj": {
+		"id": "6aabea1f-f0bb-f111-a6a9-000d3ab13451",
+		"name": "genai_invoice_validator",
+		"ver": "26.10.01.1645"
+	}
+}

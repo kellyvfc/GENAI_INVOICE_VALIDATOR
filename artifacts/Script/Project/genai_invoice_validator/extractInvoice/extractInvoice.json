@@ -1,0 +1,59 @@
+{
+	"id": "2ed71a54-91bd-f111-a6a8-7ced8d3fbafe",
+	"createdAt": "2026-10-01T12:12:11.413Z",
+	"createdBy": "veronica.fernandez@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "c20ccf09-91bd-f111-a6a8-7ced8d3fbafe",
+			"name": "genai_claim",
+			"contextname": "genai_claim"
+		},
+		{
+			"id": "60988561-93bd-f111-a6a8-7ced8d3fbafe",
+			"name": "genai_invoice_request",
+			"contextname": "genai_invoice_request"
+		},
+		{
+			"id": "dae12bf0-74bd-f111-a6a8-7ced8d3fbafe",
+			"name": "genai_invoice_result",
+			"contextname": "genai_invoice_result"
+		},
+		{
+			"id": "be57a2c8-9fbd-f111-a6a8-7ced8d3fbafe",
+			"name": "genai_claim_attachment",
+			"contextname": "genai_claim_attachment"
+		}
+	],
+	"agents": [
+		{
+			"id": "ce4fa48c-00bc-f111-a6a9-000d3ab13451",
+			"name": "genai_invoiceExtractionImage",
+			"contextname": "genai_invoiceExtractionImage"
+		},
+		{
+			"id": "24b75263-07bc-f111-a6a9-000d3ab13451",
+			"name": "genai_invoiceExtractionText",
+			"contextname": "genai_invoiceExtractionText"
+		},
+		{
+			"id": "a81a6aa4-c5bc-f111-a6a9-7c1e52210563",
+			"name": "genai_invoiceExtractionPDF",
+			"contextname": "genai_invoiceExtractionPDF"
+		}
+	],
+	"processFlows": [],
+	"apis": [],
+	"name": "extractInvoice",
+	"ver": "26.10.01.1617",
+	"description": "API POST /extract: consumes a prepared request (owner + status checked), reads the stored attachment, builds the agent prompt server-side with a prompt-injection guard, calls the image / text / PDF agent, validates and saves the result.",
+	"folder": "callFromApp",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "6aabea1f-f0bb-f111-a6a9-000d3ab13451",
+	"package": "187b8836-e2bb-f111-a6a9-000d3ab13451"
+}

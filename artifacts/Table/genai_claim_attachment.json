@@ -1,0 +1,67 @@
+{
+	"id": "be57a2c8-9fbd-f111-a6a8-7ced8d3fbafe",
+	"createdAt": "2026-10-01T13:55:39.870Z",
+	"createdBy": "veronica.fernandez@neptune-software.com",
+	"fields": [
+		{
+			"id": null,
+			"fieldName": "claimNo",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": false,
+			"description": "Warranty claim number"
+		},
+		{
+			"id": null,
+			"fieldName": "fileName",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"isNullable": false,
+			"description": "Original file name"
+		},
+		{
+			"id": null,
+			"fieldName": "mediaType",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": false,
+			"description": "MIME media type"
+		},
+		{
+			"id": null,
+			"fieldName": "sizeBytes",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": false,
+			"description": "File size in bytes"
+		},
+		{
+			"id": null,
+			"fieldName": "fileHash",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"isNullable": false,
+			"description": "SHA-256 hash of the file"
+		},
+		{
+			"id": null,
+			"fieldName": "fileData",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": false,
+			"description": "Base64 data URI of the file"
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"vectorStoreConfig": {},
+	"name": "genai_claim_attachment",
+	"description": "Attachments (invoices/documents) linked to warranty claims.",
+	"ver": "26.10.02.1222",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "187b8836-e2bb-f111-a6a9-000d3ab13451",
+	"generationStrategy": "uuid",
+	"rolesRead": [],
+	"rolesWrite": []
+}

@@ -1,0 +1,22 @@
+{
+	"id": "fe970242-c4bc-f111-a6a9-7c1e52210563",
+	"createdAt": "2026-09-30T11:44:14.243Z",
+	"createdBy": "veronica.fernandez@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [],
+	"agents": [],
+	"processFlows": [],
+	"apis": [],
+	"name": "preparePDFRequest",
+	"ver": "26.09.30.1147",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "6aabea1f-f0bb-f111-a6a9-000d3ab13451",
+	"package": "187b8836-e2bb-f111-a6a9-000d3ab13451"
+}

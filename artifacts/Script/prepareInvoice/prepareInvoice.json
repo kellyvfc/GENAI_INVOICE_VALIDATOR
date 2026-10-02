@@ -1,0 +1,51 @@
+{
+	"id": "d8ef563a-91bd-f111-a6a8-7ced8d3fbafe",
+	"createdAt": "2026-10-01T12:11:28.186Z",
+	"createdBy": "veronica.fernandez@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [
+		{
+			"id": "06752553-691C-F111-832E-0022489DF99F",
+			"name": "pdf-parse",
+			"contextname": "pdfparse",
+			"path": "/home/planet9/ext-disk/npm-serverscript/node_modules/pdf-parse",
+			"subPath": ""
+		}
+	],
+	"entitySets": [
+		{
+			"id": "c20ccf09-91bd-f111-a6a8-7ced8d3fbafe",
+			"name": "genai_claim",
+			"contextname": "genai_claim"
+		},
+		{
+			"id": "60988561-93bd-f111-a6a8-7ced8d3fbafe",
+			"name": "genai_invoice_request",
+			"contextname": "genai_invoice_request"
+		},
+		{
+			"id": "be57a2c8-9fbd-f111-a6a8-7ced8d3fbafe",
+			"name": "genai_claim_attachment",
+			"contextname": "genai_claim_attachment"
+		}
+	],
+	"agents": [],
+	"processFlows": [],
+	"apis": [],
+	"name": "prepareInvoice",
+	"ver": "26.10.01.1443",
+	"description": "API POST /prepare: reads a stored attachment, detects image / text PDF / scanned PDF, extracts PDF text and stores the request server-side. Never returns a prompt.",
+	"folder": "callFromApp",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "6aabea1f-f0bb-f111-a6a9-000d3ab13451",
+	"package": "187b8836-e2bb-f111-a6a9-000d3ab13451",
+	"jsscriptGroupObj": {
+		"id": "6aabea1f-f0bb-f111-a6a9-000d3ab13451",
+		"name": "genai_invoice_validator",
+		"ver": "26.10.01.1645"
+	}
+}

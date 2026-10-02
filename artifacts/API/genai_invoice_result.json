@@ -1,0 +1,373 @@
+{
+	"id": "32cd509c-75bd-f111-a6a8-7ced8d3fbafe",
+	"createdAt": "2026-10-01T08:53:46.693Z",
+	"createdBy": "veronica.fernandez@neptune-software.com",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "53f8d455-9f4b-441b-a4ee-1add48f44878",
+			"path": "/genai_invoice_result",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				},
+				{
+					"name": "select",
+					"description": "fieldName1, fieldname2, fieldName3"
+				},
+				{
+					"name": "take",
+					"description": "Limit (paginated) - max number of entities that should be taken"
+				},
+				{
+					"name": "skip",
+					"description": "Offset (paginated) from where entities should be taken"
+				},
+				{
+					"name": "order",
+					"description": "{\"fieldName1\": \"ASC\", \"fieldName2\": \"DESC\"}"
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": "200",
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "genai_invoice_result"
+						}
+					]
+				},
+				{
+					"status": "400",
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "643872f3-a8ec-46df-8c4c-8afcee5bc4d5",
+			"path": "/genai_invoice_result",
+			"method": "PUT",
+			"headers": [],
+			"parameters": [],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "genai_invoice_result"
+				}
+			],
+			"responses": [
+				{
+					"status": "200",
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "genai_invoice_result"
+						}
+					]
+				},
+				{
+					"status": "400",
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "aba5deb2-fa60-48a1-b35b-590938c3458c",
+			"path": "/genai_invoice_result",
+			"method": "POST",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "genai_invoice_result"
+				}
+			],
+			"responses": [
+				{
+					"status": "200",
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "genai_invoice_result"
+						}
+					]
+				},
+				{
+					"status": "400",
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "fc518396-15e7-41bb-a39c-a1a0f1fd59a4",
+			"path": "/genai_invoice_result",
+			"method": "DELETE",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": "200",
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "genai_invoice_result"
+						}
+					]
+				},
+				{
+					"status": "400",
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "d7a5fc6c-e171-489e-892c-881b89fcd3ee",
+			"path": "/genai_invoice_result/count",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": "200",
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "count"
+						}
+					]
+				},
+				{
+					"status": "400",
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "993be41e-a426-40a1-98f7-0383ead9b056",
+			"name": "genai_invoice_result",
+			"properties": [
+				{
+					"id": "1ce1d100-b350-444d-ae04-52a2fb65e90a",
+					"parent": "",
+					"name": "id",
+					"description": "Unique record ID",
+					"objectType": "string"
+				},
+				{
+					"id": "2dcd3f8a-a5cf-4532-801d-ea27a09bceb7",
+					"parent": "",
+					"name": "requestId",
+					"description": "ID generated by the start API and passed into the flow; the app looks up the result with it",
+					"objectType": "string"
+				},
+				{
+					"id": "fd5eafa8-c0f7-40bd-8661-457706f34754",
+					"parent": "",
+					"name": "success",
+					"description": "Agent: document readable and fields extracted",
+					"objectType": "boolean"
+				},
+				{
+					"id": "4c4debcd-9098-47f2-acce-41a24f2eae68",
+					"parent": "",
+					"name": "flowType",
+					"description": "Always invoice-extraction",
+					"objectType": "string"
+				},
+				{
+					"id": "8bb1ee8e-956e-4d47-9b25-9678490e4c38",
+					"parent": "",
+					"name": "confidence",
+					"description": "Extraction confidence 0-1",
+					"objectType": "number"
+				},
+				{
+					"id": "e03febb5-68e8-4e0e-8c58-2e7ecad98d07",
+					"parent": "",
+					"name": "qualityScore",
+					"description": "Document quality 0-100",
+					"objectType": "integer"
+				},
+				{
+					"id": "7b9f7249-ef02-4732-acc4-d8c378295009",
+					"parent": "",
+					"name": "similarity",
+					"description": "Match between invoice line items and claimed fault/part, 0-1",
+					"objectType": "number"
+				},
+				{
+					"id": "ee2195e7-da4b-4ca6-a4c1-c05c6d50420e",
+					"parent": "",
+					"name": "extraction",
+					"description": "Full extraction object incl. lineItems and redFlags",
+					"objectType": "object"
+				},
+				{
+					"id": "98dbc6d0-14e4-47fc-80a4-70d14a0bdf17",
+					"parent": "",
+					"name": "createdAt",
+					"description": "Date when record was created",
+					"objectType": "number"
+				},
+				{
+					"id": "a2a8ff86-0f65-408d-a070-8ce99e78a3cc",
+					"parent": "",
+					"name": "createdBy",
+					"description": "Created by",
+					"objectType": "string"
+				},
+				{
+					"id": "ca35f93c-1793-48e8-9867-37ea7b6c6ef4",
+					"parent": "",
+					"name": "updatedAt",
+					"description": "Date when record was updated",
+					"objectType": "number"
+				},
+				{
+					"id": "6b5dde47-2348-47bc-afbf-d73602068313",
+					"parent": "",
+					"name": "updatedBy",
+					"description": "Updated by",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "e370f87f-2455-434b-9ffb-b49baece68e7",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "7959c5d4-8502-4ece-84f2-e6f4e332f862",
+					"parent": "",
+					"name": "status",
+					"objectType": "string"
+				},
+				{
+					"id": "1c121e49-8240-4b5b-8054-21edeaa11aec",
+					"parent": "",
+					"name": "message",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "f63eb3a6-4d7c-4907-bba1-dfd1ea52927b",
+			"name": "count",
+			"properties": [
+				{
+					"id": "2cfc39e1-5888-4ba5-8777-5f3d343b7ae4",
+					"parent": "",
+					"name": "count",
+					"objectType": "number"
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "genai_invoice_result",
+	"endpoint": "/api/entity",
+	"ver": "26.10.01.0853",
+	"version": null,
+	"description": null,
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": "",
+	"enableProxy": false,
+	"forwardProxy": null,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"enableScriptEditor": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "187b8836-e2bb-f111-a6a9-000d3ab13451",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

@@ -1,0 +1,38 @@
+{
+	"id": "9de73569-91bd-f111-a6a8-7ced8d3fbafe",
+	"createdAt": "2026-10-01T12:12:46.823Z",
+	"createdBy": "veronica.fernandez@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "c20ccf09-91bd-f111-a6a8-7ced8d3fbafe",
+			"name": "genai_claim",
+			"contextname": "genai_claim"
+		},
+		{
+			"id": "dae12bf0-74bd-f111-a6a8-7ced8d3fbafe",
+			"name": "genai_invoice_result",
+			"contextname": "genai_invoice_result"
+		},
+		{
+			"id": "be57a2c8-9fbd-f111-a6a8-7ced8d3fbafe",
+			"name": "genai_claim_attachment",
+			"contextname": "genai_claim_attachment"
+		}
+	],
+	"agents": [],
+	"processFlows": [],
+	"apis": [],
+	"name": "getClaims",
+	"ver": "26.10.01.1632",
+	"description": "API GET /claims: list of demo claims with their latest validation; with ?claimNo=X returns that claim plus its full validation history. Only validations of existing attachments count.",
+	"folder": "callFromApp",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "6aabea1f-f0bb-f111-a6a9-000d3ab13451",
+	"package": "187b8836-e2bb-f111-a6a9-000d3ab13451"
+}

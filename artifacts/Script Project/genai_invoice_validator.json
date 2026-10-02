@@ -1,0 +1,10 @@
+{
+	"id": "6aabea1f-f0bb-f111-a6a9-000d3ab13451",
+	"createdAt": "2026-09-29T10:25:46.933Z",
+	"createdBy": "veronica.fernandez@neptune-software.com",
+	"name": "genai_invoice_validator",
+	"description": "",
+	"ver": "26.10.01.1645",
+	"package": "187b8836-e2bb-f111-a6a9-000d3ab13451",
+	"projectLogLevel": null
+}

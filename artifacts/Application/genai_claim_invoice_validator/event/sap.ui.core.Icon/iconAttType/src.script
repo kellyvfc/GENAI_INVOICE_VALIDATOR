@@ -1,0 +1,3 @@
+var type = arguments[0] || "";
+if (type.indexOf("pdf") >= 0) return "sap-icon://pdf-attachment";
+return "sap-icon://picture";

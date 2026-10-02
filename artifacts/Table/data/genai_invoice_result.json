@@ -1,0 +1,631 @@
+[
+	{
+		"id": "e4e63d17-b8bd-f111-a6a8-7ced8d3fbafe",
+		"createdAt": "1790873385070",
+		"updatedAt": "1790873385070",
+		"createdBy": "veronica.fernandez@neptune-software.com",
+		"updatedBy": "veronica.fernandez@neptune-software.com",
+		"requestId": "43515d5f-8699-4108-9635-f803b72a33bb",
+		"success": true,
+		"flowType": "invoice-extraction",
+		"confidence": 0.97,
+		"qualityScore": 95,
+		"similarity": 0.95,
+		"extraction": {
+			"invoiceNumber": "INV-20417",
+			"date": "2026-09-18",
+			"total": "808.50",
+			"vendor": "Southern Cross Auto Parts Pty Ltd",
+			"currency": "AUD",
+			"lineItems": [
+				{
+					"description": "Front shock absorber assembly (L)",
+					"quantity": "1",
+					"unitPrice": "185.00",
+					"amount": "185.00"
+				},
+				{
+					"description": "Front shock absorber assembly (R)",
+					"quantity": "1",
+					"unitPrice": "185.00",
+					"amount": "185.00"
+				},
+				{
+					"description": "Strut mount kit",
+					"quantity": "2",
+					"unitPrice": "32.50",
+					"amount": "65.00"
+				},
+				{
+					"description": "Labour - replace front shocks",
+					"quantity": "2.5",
+					"unitPrice": "120.00",
+					"amount": "300.00"
+				}
+			],
+			"subtotal": "735.00",
+			"tax": "73.50",
+			"vatId": "ABN 51 824 753 556",
+			"documentType": "Tax Invoice",
+			"redFlags": []
+		},
+		"claimNo": null,
+		"attachmentId": null
+	},
+	{
+		"id": "e35ce502-b7bd-f111-a6a8-7ced8d3fbafe",
+		"createdAt": "1790872921115",
+		"updatedAt": "1790872921112",
+		"createdBy": "veronica.fernandez@neptune-software.com",
+		"updatedBy": "veronica.fernandez@neptune-software.com",
+		"requestId": "e33ea3ec-dfca-4ea3-b131-daa6d42f1236",
+		"success": true,
+		"flowType": "invoice-extraction",
+		"confidence": 0.97,
+		"qualityScore": 95,
+		"similarity": 0.96,
+		"extraction": {
+			"invoiceNumber": "INV-20417",
+			"date": "2026-09-18",
+			"total": "904.05",
+			"vendor": "Liffey Auto Parts Ltd",
+			"currency": "EUR",
+			"lineItems": [
+				{
+					"description": "Front shock absorber assembly (L)",
+					"quantity": "1",
+					"unitPrice": "185.00",
+					"amount": "185.00"
+				},
+				{
+					"description": "Front shock absorber assembly (R)",
+					"quantity": "1",
+					"unitPrice": "185.00",
+					"amount": "185.00"
+				},
+				{
+					"description": "Strut mount kit",
+					"quantity": "2",
+					"unitPrice": "32.50",
+					"amount": "65.00"
+				},
+				{
+					"description": "Labour - replace front shocks",
+					"quantity": "2.5",
+					"unitPrice": "120.00",
+					"amount": "300.00"
+				}
+			],
+			"subtotal": "735.00",
+			"tax": "169.05",
+			"vatId": "IE6388047V",
+			"documentType": "VAT invoice",
+			"redFlags": []
+		},
+		"claimNo": "DEMO-2026-0713",
+		"attachmentId": "E05CE502-B7BD-F111-A6A8-7CED8D3FBAFE"
+	},
+	{
+		"id": "dab34c2a-4dbe-f111-a6a9-000d3ab20d26",
+		"createdAt": "1790937415332",
+		"updatedAt": "1790937415327",
+		"createdBy": "veronica.fernandez@neptune-software.com",
+		"updatedBy": "veronica.fernandez@neptune-software.com",
+		"requestId": "2c459fa3-d733-4a79-a3e6-5ae477c55498",
+		"success": true,
+		"flowType": "invoice-extraction",
+		"confidence": 0.93,
+		"qualityScore": 85,
+		"similarity": 0.02,
+		"extraction": {
+			"invoiceNumber": "SAE-0098",
+			"date": "2026-12-15",
+			"total": "511.17",
+			"vendor": "Sparky's Auto Electrical",
+			"currency": "EUR",
+			"lineItems": [
+				{
+					"description": "12V battery replacement",
+					"quantity": "1",
+					"unitPrice": "289.00",
+					"amount": "289.00"
+				},
+				{
+					"description": "Battery terminal clean",
+					"quantity": "1",
+					"unitPrice": "35.00",
+					"amount": "35.00"
+				},
+				{
+					"description": "Labour - battery test and fit",
+					"quantity": "0.5",
+					"unitPrice": "110.00",
+					"amount": "55.00"
+				}
+			],
+			"subtotal": "379.00",
+			"tax": "87.17",
+			"vatId": null,
+			"documentType": "VAT invoice",
+			"redFlags": [
+				"Invoice line items (12V battery replacement, terminal clean, battery test and fit labour) do NOT match the claimed fault/causal part (front shock absorber assembly, front suspension knocking/leaking)",
+				"Invoice date 2026-12-15 is in the future (after reference date 2026-10-02)",
+				"Missing VAT ID on a document presented as a VAT invoice",
+				"Arithmetic: subtotal 379.00 + VAT 87.17 = expected total 466.17, but printed total is 511.17 (difference 45.00)"
+			]
+		},
+		"claimNo": "DEMO-2026-0713",
+		"attachmentId": "D7B34C2A-4DBE-F111-A6A9-000D3AB20D26"
+	},
+	{
+		"id": "a81afbaa-79bd-f111-a6a8-7ced8d3fbafe",
+		"createdAt": "1790846574206",
+		"updatedAt": "1790846574206",
+		"createdBy": "veronica.fernandez@neptune-software.com",
+		"updatedBy": "veronica.fernandez@neptune-software.com",
+		"requestId": "test-002",
+		"success": true,
+		"flowType": "invoice-extraction",
+		"confidence": 0.97,
+		"qualityScore": 92,
+		"similarity": 0.95,
+		"extraction": {
+			"invoiceNumber": "INV-20417",
+			"date": "2026-09-18",
+			"total": "808.50",
+			"vendor": "Southern Cross Auto Parts Pty Ltd",
+			"currency": "AUD",
+			"lineItems": [
+				{
+					"description": "Front shock absorber assembly (L)",
+					"quantity": "1",
+					"unitPrice": "185.00",
+					"amount": "185.00"
+				},
+				{
+					"description": "Front shock absorber assembly (R)",
+					"quantity": "1",
+					"unitPrice": "185.00",
+					"amount": "185.00"
+				},
+				{
+					"description": "Strut mount kit",
+					"quantity": "2",
+					"unitPrice": "32.50",
+					"amount": "65.00"
+				},
+				{
+					"description": "Labour - replace front shocks",
+					"quantity": "2.5",
+					"unitPrice": "120.00",
+					"amount": "300.00"
+				}
+			],
+			"subtotal": "735.00",
+			"tax": "73.50",
+			"abn": "51 824 753 556",
+			"documentType": "Tax Invoice",
+			"redFlags": []
+		},
+		"claimNo": null,
+		"attachmentId": null
+	},
+	{
+		"id": "a6174598-7abd-f111-a6a8-7ced8d3fbafe",
+		"createdAt": "1790846974717",
+		"updatedAt": "1790846974717",
+		"createdBy": "veronica.fernandez@neptune-software.com",
+		"updatedBy": "veronica.fernandez@neptune-software.com",
+		"requestId": "test-003",
+		"success": true,
+		"flowType": "invoice-extraction",
+		"confidence": 0.95,
+		"qualityScore": 85,
+		"similarity": 0.07,
+		"extraction": {
+			"invoiceNumber": "QF-88312",
+			"date": "2026-09-20",
+			"total": "229.90",
+			"vendor": "QuickFit Tyres & Service",
+			"currency": "AUD",
+			"lineItems": [
+				{
+					"description": "Four wheel alignment",
+					"quantity": "1",
+					"unitPrice": "129.00",
+					"amount": "129.00"
+				},
+				{
+					"description": "Tyre rotation and balance",
+					"quantity": "1",
+					"unitPrice": "60.00",
+					"amount": "60.00"
+				},
+				{
+					"description": "Valve stems",
+					"quantity": "4",
+					"unitPrice": "5.00",
+					"amount": "20.00"
+				}
+			],
+			"subtotal": "209.00",
+			"tax": "20.90",
+			"abn": "33 102 417 032",
+			"documentType": "Tax Invoice",
+			"redFlags": [
+				"Invoice line items do not match the claimed fault/causal part: the invoice covers four wheel alignment, tyre rotation and balance, and valve stems, but the claim is for a front shock absorber assembly (front suspension knocking, shock absorber leaking). No shock absorber part or diagnosis/repair labour is listed."
+			]
+		},
+		"claimNo": null,
+		"attachmentId": null
+	},
+	{
+		"id": "87c99f65-7abd-f111-a6a8-7ced8d3fbafe",
+		"createdAt": "1790846887254",
+		"updatedAt": "1790846887254",
+		"createdBy": "veronica.fernandez@neptune-software.com",
+		"updatedBy": "veronica.fernandez@neptune-software.com",
+		"requestId": "test-001",
+		"success": true,
+		"flowType": "invoice-extraction",
+		"confidence": 0.97,
+		"qualityScore": 92,
+		"similarity": 0.96,
+		"extraction": {
+			"invoiceNumber": "INV-20417",
+			"date": "2026-09-18",
+			"total": "808.50",
+			"vendor": "Southern Cross Auto Parts Pty Ltd",
+			"currency": "AUD",
+			"lineItems": [
+				{
+					"description": "Front shock absorber assembly (L)",
+					"quantity": "1",
+					"unitPrice": "185.00",
+					"amount": "185.00"
+				},
+				{
+					"description": "Front shock absorber assembly (R)",
+					"quantity": "1",
+					"unitPrice": "185.00",
+					"amount": "185.00"
+				},
+				{
+					"description": "Strut mount kit",
+					"quantity": "2",
+					"unitPrice": "32.50",
+					"amount": "65.00"
+				},
+				{
+					"description": "Labour - replace front shocks",
+					"quantity": "2.5",
+					"unitPrice": "120.00",
+					"amount": "300.00"
+				}
+			],
+			"subtotal": "735.00",
+			"tax": "73.50",
+			"abn": "51 824 753 556",
+			"documentType": "Tax Invoice",
+			"redFlags": []
+		},
+		"claimNo": null,
+		"attachmentId": null
+	},
+	{
+		"id": "5e550834-4cbe-f111-a6a9-000d3ab20d26",
+		"createdAt": "1790937000522",
+		"updatedAt": "1790937000518",
+		"createdBy": "veronica.fernandez@neptune-software.com",
+		"updatedBy": "veronica.fernandez@neptune-software.com",
+		"requestId": "473892b3-c3ab-4164-85d4-907d411419df",
+		"success": true,
+		"flowType": "invoice-extraction",
+		"confidence": 0.97,
+		"qualityScore": 93,
+		"similarity": 0.96,
+		"extraction": {
+			"invoiceNumber": "INV-20417",
+			"date": "2026-09-18",
+			"total": "904.05",
+			"vendor": "Liffey Auto Parts Ltd",
+			"currency": "EUR",
+			"lineItems": [
+				{
+					"description": "Front shock absorber assembly (L)",
+					"quantity": "1",
+					"unitPrice": "185.00",
+					"amount": "185.00"
+				},
+				{
+					"description": "Front shock absorber assembly (R)",
+					"quantity": "1",
+					"unitPrice": "185.00",
+					"amount": "185.00"
+				},
+				{
+					"description": "Strut mount kit",
+					"quantity": "2",
+					"unitPrice": "32.50",
+					"amount": "65.00"
+				},
+				{
+					"description": "Labour - replace front shocks",
+					"quantity": "2.5",
+					"unitPrice": "120.00",
+					"amount": "300.00"
+				}
+			],
+			"subtotal": "735.00",
+			"tax": "169.05",
+			"vatId": "IE6388047V",
+			"documentType": "VAT invoice",
+			"redFlags": []
+		},
+		"claimNo": "DEMO-2026-0713",
+		"attachmentId": "5B550834-4CBE-F111-A6A9-000D3AB20D26"
+	},
+	{
+		"id": "502610a7-95bd-f111-a6a8-7ced8d3fbafe",
+		"createdAt": "1790858595130",
+		"updatedAt": "1790858595127",
+		"createdBy": "veronica.fernandez@neptune-software.com",
+		"updatedBy": "veronica.fernandez@neptune-software.com",
+		"requestId": "cbe139a5-92ec-4e9f-8690-39551ef11fed",
+		"success": true,
+		"flowType": "invoice-extraction",
+		"confidence": 0.95,
+		"qualityScore": 90,
+		"similarity": 0,
+		"extraction": {
+			"invoiceNumber": null,
+			"date": "2026-09-19",
+			"total": "104.50",
+			"vendor": "Harbour View Bistro",
+			"currency": "AUD",
+			"lineItems": [
+				{
+					"description": "Lunch set menu",
+					"quantity": "2",
+					"unitPrice": "38.00",
+					"amount": "76.00"
+				},
+				{
+					"description": "Flat white",
+					"quantity": "2",
+					"unitPrice": "5.50",
+					"amount": "11.00"
+				},
+				{
+					"description": "Sparkling water",
+					"quantity": "1",
+					"unitPrice": "8.00",
+					"amount": "8.00"
+				}
+			],
+			"subtotal": "95.00",
+			"tax": "9.50",
+			"abn": null,
+			"documentType": "Receipt",
+			"redFlags": [
+				"Invoice line items (lunch set menu, flat white, sparkling water) do NOT match the claimed causal part (Front shock absorber assembly) or the SUSPENSION defect code",
+				"Vendor 'Harbour View Bistro' is a restaurant/cafe, not a typical automotive parts supplier or service provider",
+				"Missing required field: no ABN shown on this Australian (AUD, NSW) receipt"
+			]
+		},
+		"claimNo": "DEMO-2026-0713",
+		"attachmentId": null
+	},
+	{
+		"id": "4209f8ac-b7bd-f111-a6a8-7ced8d3fbafe",
+		"createdAt": "1790873206290",
+		"updatedAt": "1790873206290",
+		"createdBy": "veronica.fernandez@neptune-software.com",
+		"updatedBy": "veronica.fernandez@neptune-software.com",
+		"requestId": "TEST-086F975F79C6",
+		"success": true,
+		"flowType": "invoice-extraction",
+		"confidence": 0.97,
+		"qualityScore": 95,
+		"similarity": 0.95,
+		"extraction": {
+			"invoiceNumber": "INV-20417",
+			"date": "2026-09-18",
+			"total": "904.05",
+			"vendor": "Liffey Auto Parts Ltd",
+			"currency": "EUR",
+			"lineItems": [
+				{
+					"description": "Front shock absorber assembly (L)",
+					"quantity": "1",
+					"unitPrice": "185.00",
+					"amount": "185.00"
+				},
+				{
+					"description": "Front shock absorber assembly (R)",
+					"quantity": "1",
+					"unitPrice": "185.00",
+					"amount": "185.00"
+				},
+				{
+					"description": "Strut mount kit",
+					"quantity": "2",
+					"unitPrice": "32.50",
+					"amount": "65.00"
+				},
+				{
+					"description": "Labour - replace front shocks",
+					"quantity": "2.5",
+					"unitPrice": "120.00",
+					"amount": "300.00"
+				}
+			],
+			"subtotal": "735.00",
+			"tax": "169.05",
+			"vatId": "IE6388047V",
+			"documentType": "VAT INVOICE",
+			"redFlags": []
+		},
+		"claimNo": null,
+		"attachmentId": null
+	},
+	{
+		"id": "32726a5a-91bd-f111-a6a8-7ced8d3fbafe",
+		"createdAt": "1790856746092",
+		"updatedAt": "1790856746087",
+		"createdBy": "veronica.fernandez@neptune-software.com",
+		"updatedBy": "veronica.fernandez@neptune-software.com",
+		"requestId": "12866700-8090-419c-9b45-684a8d5aa59a",
+		"success": true,
+		"flowType": "invoice-extraction",
+		"confidence": 0.97,
+		"qualityScore": 95,
+		"similarity": 0.96,
+		"extraction": {
+			"invoiceNumber": "INV-20417",
+			"date": "2026-09-18",
+			"total": "808.50",
+			"vendor": "Southern Cross Auto Parts Pty Ltd",
+			"currency": "AUD",
+			"lineItems": [
+				{
+					"description": "Front shock absorber assembly (L)",
+					"quantity": "1",
+					"unitPrice": "185.00",
+					"amount": "185.00"
+				},
+				{
+					"description": "Front shock absorber assembly (R)",
+					"quantity": "1",
+					"unitPrice": "185.00",
+					"amount": "185.00"
+				},
+				{
+					"description": "Strut mount kit",
+					"quantity": "2",
+					"unitPrice": "32.50",
+					"amount": "65.00"
+				},
+				{
+					"description": "Labour - replace front shocks",
+					"quantity": "2.5",
+					"unitPrice": "120.00",
+					"amount": "300.00"
+				}
+			],
+			"subtotal": "735.00",
+			"tax": "73.50",
+			"abn": "51 824 753 556",
+			"documentType": "Tax Invoice",
+			"redFlags": []
+		},
+		"claimNo": null,
+		"attachmentId": null
+	},
+	{
+		"id": "1e0b154c-b6bd-f111-a6a8-7ced8d3fbafe",
+		"createdAt": "1790872609331",
+		"updatedAt": "1790872609328",
+		"createdBy": "veronica.fernandez@neptune-software.com",
+		"updatedBy": "veronica.fernandez@neptune-software.com",
+		"requestId": "c3e5c630-2f1f-4c3a-980a-890b68f8c530",
+		"success": true,
+		"flowType": "invoice-extraction",
+		"confidence": 0.97,
+		"qualityScore": 95,
+		"similarity": 0.95,
+		"extraction": {
+			"invoiceNumber": "INV-20417",
+			"date": "2026-09-18",
+			"total": "904.05",
+			"vendor": "Liffey Auto Parts Ltd",
+			"currency": "EUR",
+			"lineItems": [
+				{
+					"description": "Front shock absorber assembly (L)",
+					"quantity": "1",
+					"unitPrice": "185.00",
+					"amount": "185.00"
+				},
+				{
+					"description": "Front shock absorber assembly (R)",
+					"quantity": "1",
+					"unitPrice": "185.00",
+					"amount": "185.00"
+				},
+				{
+					"description": "Strut mount kit",
+					"quantity": "2",
+					"unitPrice": "32.50",
+					"amount": "65.00"
+				},
+				{
+					"description": "Labour - replace front shocks",
+					"quantity": "2.5",
+					"unitPrice": "120.00",
+					"amount": "300.00"
+				}
+			],
+			"subtotal": "735.00",
+			"tax": "169.05",
+			"vatId": "IE6388047V",
+			"documentType": "VAT Invoice",
+			"redFlags": []
+		},
+		"claimNo": "DEMO-2026-0713",
+		"attachmentId": "089D68CC-B5BD-F111-A6A8-7CED8D3FBAFE"
+	},
+	{
+		"id": "079d68cc-b5bd-f111-a6a8-7ced8d3fbafe",
+		"createdAt": "1790872395130",
+		"updatedAt": "1790872395126",
+		"createdBy": "veronica.fernandez@neptune-software.com",
+		"updatedBy": "veronica.fernandez@neptune-software.com",
+		"requestId": "2821a980-3819-4976-95d6-e82732fb4344",
+		"success": true,
+		"flowType": "invoice-extraction",
+		"confidence": 0.95,
+		"qualityScore": 85,
+		"similarity": 0.95,
+		"extraction": {
+			"invoiceNumber": "INV-20417",
+			"date": "2026-09-18",
+			"total": "904.05",
+			"vendor": "Liffey Auto Parts Ltd",
+			"currency": "EUR",
+			"lineItems": [
+				{
+					"description": "Front shock absorber assembly (L)",
+					"quantity": "1",
+					"unitPrice": "185.00",
+					"amount": "185.00"
+				},
+				{
+					"description": "Front shock absorber assembly (R)",
+					"quantity": "1",
+					"unitPrice": "185.00",
+					"amount": "185.00"
+				},
+				{
+					"description": "Strut mount kit",
+					"quantity": "2",
+					"unitPrice": "32.50",
+					"amount": "65.00"
+				},
+				{
+					"description": "Labour - replace front shocks",
+					"quantity": "2.5",
+					"unitPrice": "120.00",
+					"amount": "300.00"
+				}
+			],
+			"subtotal": "735.00",
+			"tax": "169.05",
+			"vatId": "IE6388047V",
+			"documentType": "VAT Invoice",
+			"redFlags": []
+		},
+		"claimNo": "DEMO-2026-0713",
+		"attachmentId": "BA3E0FC5-B5BD-F111-A6A8-7CED8D3FBAFE"
+	}
+]

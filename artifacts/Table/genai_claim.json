@@ -1,0 +1,136 @@
+{
+	"id": "c20ccf09-91bd-f111-a6a8-7ced8d3fbafe",
+	"createdAt": "2026-10-01T12:10:06.766Z",
+	"createdBy": "veronica.fernandez@neptune-software.com",
+	"fields": [
+		{
+			"id": null,
+			"fieldName": "claimNo",
+			"fieldType": "smalltext",
+			"isUnique": true,
+			"isNullable": false,
+			"description": "Claim number"
+		},
+		{
+			"id": null,
+			"fieldName": "status",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": true,
+			"description": "Submitted | In review | Approved | Rejected"
+		},
+		{
+			"id": null,
+			"fieldName": "claimDate",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": true,
+			"description": "YYYY-MM-DD"
+		},
+		{
+			"id": null,
+			"fieldName": "dealerName",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": null,
+			"fieldName": "customerName",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": null,
+			"fieldName": "vehicleMake",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": null,
+			"fieldName": "vehicleModel",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": null,
+			"fieldName": "vehicleYear",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": null,
+			"fieldName": "vin",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": null,
+			"fieldName": "odometerKm",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": null,
+			"fieldName": "currency",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": null,
+			"fieldName": "claimAmount",
+			"fieldType": "decimal",
+			"isUnique": false,
+			"isNullable": true,
+			"precision": 12,
+			"scale": 2
+		},
+		{
+			"id": null,
+			"fieldName": "causalPart",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": null,
+			"fieldName": "faultDescription",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": null,
+			"fieldName": "defectCode",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": null,
+			"fieldName": "troubleCode",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"vectorStoreConfig": {},
+	"name": "genai_claim",
+	"description": "Demo warranty claims shown in the invoice validator app. The claim context is sent to the invoice extraction agents.",
+	"ver": "26.10.02.1221",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "187b8836-e2bb-f111-a6a9-000d3ab13451",
+	"generationStrategy": "uuid",
+	"rolesRead": [],
+	"rolesWrite": []
+}

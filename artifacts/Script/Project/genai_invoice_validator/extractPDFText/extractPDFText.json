@@ -1,0 +1,30 @@
+{
+	"id": "fe415469-bfbc-f111-a6a9-7c1e52210563",
+	"createdAt": "2026-09-30T11:09:32.740Z",
+	"createdBy": "veronica.fernandez@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [
+		{
+			"id": "06752553-691C-F111-832E-0022489DF99F",
+			"name": "pdf-parse",
+			"contextname": "pdfparse",
+			"path": "/home/planet9/ext-disk/npm-serverscript/node_modules/pdf-parse",
+			"subPath": ""
+		}
+	],
+	"entitySets": [],
+	"agents": [],
+	"processFlows": [],
+	"apis": [],
+	"name": "extractPDFText",
+	"ver": "26.09.30.1132",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "6aabea1f-f0bb-f111-a6a9-000d3ab13451",
+	"package": "187b8836-e2bb-f111-a6a9-000d3ab13451"
+}

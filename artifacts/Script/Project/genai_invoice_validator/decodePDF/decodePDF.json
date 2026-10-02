@@ -1,0 +1,22 @@
+{
+	"id": "6ba4ee56-f1bb-f111-a6a9-000d3ab13451",
+	"createdAt": "2026-09-29T10:34:25.533Z",
+	"createdBy": "veronica.fernandez@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [],
+	"agents": [],
+	"processFlows": [],
+	"apis": [],
+	"name": "decodePDF",
+	"ver": "26.09.30.1110",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "6aabea1f-f0bb-f111-a6a9-000d3ab13451",
+	"package": "187b8836-e2bb-f111-a6a9-000d3ab13451"
+}

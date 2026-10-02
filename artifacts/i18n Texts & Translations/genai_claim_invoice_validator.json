@@ -1,0 +1,24 @@
+{
+	"id": "b5c703ef-97bd-f111-a6a8-7ced8d3fbafe",
+	"createdAt": "2026-10-01T12:59:28.330Z",
+	"createdBy": "veronica.fernandez@neptune-software.com",
+	"attributes": [],
+	"locales": [
+		{
+			"isoCode": "EN",
+			"locale": "en"
+		}
+	],
+	"name": "genai_claim_invoice_validator",
+	"description": null,
+	"fallbackLocale": "en",
+	"application": "genai_claim_invoice_validator",
+	"ver": "26.10.01.1641",
+	"package": "187b8836-e2bb-f111-a6a9-000d3ab13451",
+	"active": true,
+	"deleted": false,
+	"baseModelId": null,
+	"enhancedBy": [],
+	"baseModel": null,
+	"apps": []
+}

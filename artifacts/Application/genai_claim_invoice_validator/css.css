@@ -1,0 +1,152 @@
+:root {
+    --genai_claim_invoice_validator-primary: #0070f2;
+    --genai_claim_invoice_validator-bg: #f5f6f8;
+    --genai_claim_invoice_validator-surface: #ffffff;
+    --genai_claim_invoice_validator-text: #1d2129;
+    --genai_claim_invoice_validator-subtext: #6a6d70;
+    --genai_claim_invoice_validator-border: #e2e4e8;
+    --genai_claim_invoice_validator-hover: #f0f2f5;
+    --genai_claim_invoice_validator-focus-ring: rgba(0, 112, 242, 0.4);
+}
+
+.sapUiTheme-sap_horizon_dark,
+.sapUiTheme-neptune_horizon_dark {
+    --genai_claim_invoice_validator-primary: #479eef;
+    --genai_claim_invoice_validator-bg: #1a1d21;
+    --genai_claim_invoice_validator-surface: #24282e;
+    --genai_claim_invoice_validator-text: #f0f2f5;
+    --genai_claim_invoice_validator-subtext: #a0a4a8;
+    --genai_claim_invoice_validator-border: #32383f;
+    --genai_claim_invoice_validator-hover: #2e333b;
+    --genai_claim_invoice_validator-focus-ring: rgba(71, 158, 239, 0.5);
+}
+
+.genai_claim_invoice_validator_app .sapUiIcon,
+.genai_claim_invoice_validator_app .sapMBtnIcon {
+    font-family: "SAP-icons" !important;
+}
+
+.genai_claim_invoice_validator_dynPage .sapFDynamicPageContent {
+    padding-bottom: 56px !important;
+}
+
+.genai_claim_invoice_validator_dynTitle {
+    background: var(--genai_claim_invoice_validator-surface) !important;
+}
+
+.genai_claim_invoice_validator_dynHeader {
+    background: var(--genai_claim_invoice_validator-surface) !important;
+    border-bottom: 1px solid var(--genai_claim_invoice_validator-border) !important;
+}
+
+.genai_claim_invoice_validator_eyebrowText {
+    font-size: 0.75rem !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.05em !important;
+    color: var(--genai_claim_invoice_validator-primary) !important;
+}
+
+.genai_claim_invoice_validator_subText {
+    font-size: 0.8125rem !important;
+    color: var(--genai_claim_invoice_validator-subtext) !important;
+}
+
+.genai_claim_invoice_validator_boldText {
+    font-weight: 600 !important;
+}
+
+.genai_claim_invoice_validator_redFlagText {
+    font-size: 0.75rem !important;
+    color: #bb0000 !important;
+    font-weight: 600 !important;
+}
+
+.genai_claim_invoice_validator_formRow {
+    gap: 32px;
+    margin-bottom: 16px;
+}
+
+.genai_claim_invoice_validator_fieldLabel {
+    font-size: 0.75rem !important;
+    font-weight: 600 !important;
+    color: var(--genai_claim_invoice_validator-subtext) !important;
+    margin-bottom: 4px !important;
+}
+
+.genai_claim_invoice_validator_panel {
+    background: var(--genai_claim_invoice_validator-surface) !important;
+    border-radius: 12px !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05) !important;
+    margin-bottom: 16px !important;
+    overflow: hidden !important;
+}
+
+.genai_claim_invoice_validator_subPanel {
+    background: var(--genai_claim_invoice_validator-bg) !important;
+    border-radius: 8px !important;
+    margin-top: 16px !important;
+    padding: 12px !important;
+}
+
+.genai_claim_invoice_validator_uploadRow {
+    gap: 16px;
+    margin-top: 12px;
+}
+
+.genai_claim_invoice_validator_progressStepRow {
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.genai_claim_invoice_validator_stepIcon {
+    font-size: 1.25rem !important;
+    color: var(--genai_claim_invoice_validator-primary) !important;
+}
+
+.genai_claim_invoice_validator_stepDetailText {
+    font-style: italic !important;
+    color: var(--genai_claim_invoice_validator-subtext) !important;
+}
+
+.genai_claim_invoice_validator_kpiRow {
+    gap: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.genai_claim_invoice_validator_kpiCard {
+    background: var(--genai_claim_invoice_validator-bg) !important;
+    border-radius: 8px !important;
+    padding: 16px 24px !important;
+    min-width: 140px;
+    align-items: center !important;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04) !important;
+}
+
+.genai_claim_invoice_validator_redFlagsContainer {
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.genai_claim_invoice_validator_sapUiSmallMarginBegin {
+    margin-left: 0.75rem !important;
+}
+
+.genai_claim_invoice_validator_sapUiTinyMarginBegin {
+    margin-left: 0.375rem !important;
+}
+
+.genai_claim_invoice_validator_sapUiMediumMarginEnd {
+    margin-right: 2rem !important;
+}
+
+.genai_claim_invoice_validator_sfSearch.sapMSF {
+    flex-grow: 1 !important;
+    max-width: 28rem !important;
+    margin-right: 1.5rem !important;
+}
+
+.genai_claim_invoice_validator_sbStatus {
+    flex-shrink: 0 !important;
+}

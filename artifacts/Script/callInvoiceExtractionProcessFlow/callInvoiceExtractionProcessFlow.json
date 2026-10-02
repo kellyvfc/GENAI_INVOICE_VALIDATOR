@@ -1,0 +1,33 @@
+{
+	"id": "a344192f-f0bb-f111-a6a9-000d3ab13451",
+	"createdAt": "2026-09-29T10:26:09.210Z",
+	"createdBy": "veronica.fernandez@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "dae12bf0-74bd-f111-a6a8-7ced8d3fbafe",
+			"name": "genai_invoice_result",
+			"contextname": "genai_invoice_result"
+		}
+	],
+	"agents": [],
+	"processFlows": [],
+	"apis": [],
+	"name": "callInvoiceExtractionProcessFlow",
+	"ver": "26.10.01.0934",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "6aabea1f-f0bb-f111-a6a9-000d3ab13451",
+	"package": "187b8836-e2bb-f111-a6a9-000d3ab13451",
+	"jsscriptGroupObj": {
+		"id": "6aabea1f-f0bb-f111-a6a9-000d3ab13451",
+		"name": "genai_invoice_validator",
+		"ver": "26.10.01.1645"
+	}
+}
